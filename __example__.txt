@@ -1,0 +1,631 @@
+~~	SYSTEM
+
+	.bp		linux-image-amd64
+	.bp		linux-headers-amd64
+##			curl
+			apt-file
+			aptitude
+				aptitude-doc-es
+			flatpak
+				kde-config-flatpak
+##			vim
+#			emacs
+#				ripgrep
+#				fd-find
+			fish
+				doc-base
+			parallel
+			command-not-found
+			time
+			popularity-contest
+			synaptic
+				apt-xapian-index
+				deborphan
+				menu
+				menu-l10n
+				software-properties-gtk
+			pipx
+			htop
+			iotop
+			xinput
+			testdisk
+			fdupes
+			regexxer
+			bleachbit
+#			clamav
+#				clamav-docs
+#				clamav-daemon
+#				clamtk
+#			kup-backup
+			hdparm
+			net-tools
+			firejail
+			firewalld
+				rpcbind
+			unattended-upgrades
+				powermgmt-base
+			extrepo
+##			virtualbox-7.0
+##				virtualbox-ext-pack
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+#	.fp		Flatseal		com.github.tchx84.Flatseal
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	DESKTOP
+
+##			kde-full
+##				task-spanish-kde-desktop
+##				xdg-desktop-portal-kde
+##				kde-config-systemd
+##				kde-config-tablet
+				kde-config-systemd
+				kde-config-updates
+##				kde-plasma-desktop
+##				kdeplasma-addons-data
+##				kde-baseapps
+##				kdeadmin
+##				kdeutils
+##				dolphin
+##				gwenview
+##				kde-spectacle
+##				kdialog
+				kgamma5
+				krename
+				kfind
+				quota
+				kshutdown
+				yakuake
+				filelight
+				partitionmanager
+#				plasma-discover
+			unclutter-xfixes
+				unclutter-startup
+			keepassxc
+				kpcli
+			onboard
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	INTERNET
+
+			rclone
+##				rclone-browser
+	.ex		syncthing
+				syncthingtray-kde-plasma
+			firefox-esr
+				firefox-esr-l10n-es-mx
+#				webext-ublock-origin-firefox
+				plasma-browser-integration
+			thunderbird
+			qbittorrent
+			telegram-desktop
+			megatools
+
+~~	SECURITY
+
+#			wireshark
+#			nmap
+#			tcpdump
+#			nginx-full
+#				nginx-doc
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+#	.fp		Firefox			org.mozilla.firefox
+#	.fp		Thunderbird		org.mozilla.Thunderbird
+#	.fp		qBittorrent		org.qbittorrent.qBittorrent
+	.fp		Dropbox			com.dropbox.Client
+#	.fp		MEGAsync		nz.mega.MEGAsync
+##	.fp		Zoom			us.zoom.Zoom
+##	.fp		JDownloader		org.jdownloader.JDownloader
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	OFFICE
+
+	.bp		libreoffice
+	.bp			libreoffice-help-es
+	.bp			libreoffice-l10n-es
+				hunspell-es
+					hunspell-tools
+				hyphen-es
+				mythes-es
+			pandoc
+				texlive-full
+				pandoc-citeproc-preamble
+	.pi			pandoc-latex-environment
+	.pi			pandoc-include
+#			lyx
+			texstudio
+			kbibtex
+				bibtex2html
+				latex2rtf
+	.np			bibtex-tidy
+			scribus
+				scribus-template
+#				icc-profiles
+				scribus-doc
+			calibre
+			foliate
+			okular
+			xsane
+			skanlite
+				scanbd
+				xinetd
+			pdftk
+			qpdf
+			libimage-exiftool-perl
+			img2pdf
+			krop
+			ocrmypdf
+				tesseract-ocr-spa
+				libtool
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+#	.fp		LibreOffice		org.libreoffice.LibreOffice
+#	.fp		TeXstudio		org.texstudio.TeXstudio
+#	.fp		Scribus			net.scribus.Scribus
+#	.fp		Calibre			com.calibre_ebook.calibre
+#	.fp		Foliate			com.github.johnfactotum.Foliate
+#	.fp		Okular			org.kde.okular
+#	.fp		Epson Scan 2	net.epson.epsonscan2
+	.fp		ScanTailor Adv	com.github._4lex4.ScanTailor-Advanced
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	FONTS
+
+#			font-viewer
+#			font-manager
+
+~~	Multi
+##			fonts-noto-core
+##				fonts-noto-cjk
+##					fonts-noto-cjk-extra
+##				fonts-noto-color-emoji
+##				fonts-noto-core
+##				fonts-noto-extra
+##				fonts-noto-hinted
+##				fonts-noto-mono
+##				fonts-noto-ui-core
+##					fonts-noto-ui-extra
+
+~~	Mono
+			fonts-firacode
+##			fonts-monoid
+##			fonts-hack
+##			fonts-jetbrains-mono
+##			fonts-fantasque-sans
+##			fonts-ubuntu
+##			fonts-anonymous-pro
+##			fonts-inconsolata
+
+~~	Sans
+			fonts-ibm-plex
+##			fonts-clear-sans
+
+~~	Serif
+			fonts-cmu
+##			fonts-ancient-scriptss
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	AUDIO
+
+			strawberry
+#			juk
+			sox
+#			soundkonverter
+			vorbisgain
+			vorbis-tools
+			opus-tools
+			audacity
+			musescore3
+				musescore-general-soundfont-lossless
+#				musescore-general-soundfont-small
+			kid3
+				kid3-cli
+			picard
+			shntool
+				cuetools
+	.np		dl-librescore
+###			midivisualizer
+##				xorg-dev
+##				libgtk-3-dev
+##				libasound2-dev
+##				libavcodec-dev
+##				libavformat-dev
+##				libavdevice-dev
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+#	.fp		Strawberry		org.strawberrymusicplayer.strawberry
+#	.fp		Flacon			com.github.Flacon
+	.fp		fre:ac			org.freac.freac
+#	.fp		Picard			org.musicbrainz.Picard
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	GRAPHICS
+
+			gimp
+				gimp-data-extras
+				gimp-plugin-registry
+				gimp-texturize
+				gimp-help-es
+			krita
+				krita-l10n
+##			mypaint
+			inkscape
+				dia
+##				libsvg-perl
+##				libxml-xql-perl
+##				inkscape-tutorials
+			digikam
+			rawtherapee
+			rapid-photo-downloader
+			imagemagick
+				imagemagick-doc
+				potrace
+			blender
+	.bp		mesa-vulkan-drivers
+	.bp		gallery-dl
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+#	.fp		GIMP			org.gimp.GIMP
+#	.fp		Resynthesizer	org.gimp.GIMP.Plugin.Resynthesizer/x86_64/2-40
+#	.fp		GimpLensfun		org.gimp.GIMP.Plugin.Lensfun/x86_64/2-40
+#	.fp		Fourier			org.gimp.GIMP.Plugin.Fourier/x86_64/2-40
+#	.fp		BIMP			org.gimp.GIMP.Plugin.BIMP/x86_64/2-40
+#	.fp		LiquidRescale	org.gimp.GIMP.Plugin.LiquidRescale/x86_64/2-40
+#	.fp		GMIC			org.gimp.GIMP.Plugin.GMic/x86_64/2-40
+#	.fp		FocusBlur		org.gimp.GIMP.Plugin.FocusBlur/x86_64/2-40
+#	.fp		Inkscape		org.inkscape.Inkscape
+#	.fp		Krita			org.kde.krita
+#	.fp		digiKam			org.kde.digikam
+#	.fp		RawTherapee		com.rawtherapee.RawTherapee
+	.fp		Godot Engine	org.godotengine.Godot
+#	.fp		Blender			org.blender.Blender
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	Video
+
+			mpv
+			vlc
+#			dragon
+			kodi
+				kodi-peripheral-joystick
+				kodi-inputstream-adaptive
+				kodi-inputstream-rtmp
+#	.ex		jellyfin
+			kdenlive
+#			obs-studio
+##	.bp			pipewire
+			handbrake
+				handbrake-cli
+			mkvtoolnix-gui
+	.bp		yt-dlp
+				aria2
+##				atomicparsley
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+#	.fp		MPV				io.mpv.Mpv
+#	.fp		VLC				org.videolan.VLC
+#	.fp		Kodi			tv.kodi.Kodi
+#	.fp		FreeTube		io.freetubeapp.FreeTube
+#	.fp		Kdenlive		org.kde.kdenlive
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	GAMES
+
+			steam-installer
+				steam-devices
+				steamcmd
+#	.pi			protonup
+				protontricks
+#			lutris
+#			minigalaxy
+			gamemode
+			gamescope
+			mangoapp
+			innoextract
+			dosbox
+#	.pi		legendary-gl
+			antimicro
+	.ex		winehq-stable
+				winetricks
+				exe-thumbnailer
+##			retroarch
+##				libretro-bsnes-mercury-balanced
+##				libretro-mgba
+##			mgba-qt
+##			mupen64plus-qt
+			openttd
+			kpat
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+	.fp		Ludusavi		com.github.mtkennerly.ludusavi
+#	.fp		Steam			com.valvesoftware.Steam
+#	.fp		Proton			com.valvesoftware.Steam.CompatibilityTool.Proton
+#	.fp		Proton GE		com.valvesoftware.Steam.CompatibilityTool.Proton-GE
+#	.fp		Protontricks	com.github.Matoking.protontricks
+#	.fp		SteamTinker		com.valvesoftware.Steam.Utility.steamtinkerlaunch
+#	.fp		Lutris			net.lutris.Lutris
+#	.fp		Wine			org.winehq.Wine/x86_64/stable-22.08
+#	.fp		Mono			org.winehq.Wine.mono/x86_64/stable-22.08
+#	.fp		Gecko			org.winehq.Wine.gecko/x86_64/stable-22.08
+#	.fp		DXVK			org.winehq.Wine.DLLs.dxvk/x86_64/stable-22.08
+#	.fp		Rare			io.github.dummerle.rare
+##	.fp		Gamescope		com.valvesoftware.Steam.Utility.gamescope
+##	.fp		Retroarch		org.libretro.RetroArch
+##	.fp		melonDS			net.kuribo64.melonDS
+##	.fp		DuckStation		org.duckstation.DuckStation
+##	.fp		Dolphin Emulat	org.DolphinEmu.dolphin-emu
+##	.fp		Yuzu			org.yuzu_emu.yuzu
+##	.fp		Ryujinx			org.ryujinx.Ryujinx
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	EDUCATIONAL
+
+			qalculate-gtk
+					qalc
+			sagemath
+			openboard
+					openboard-contrib
+##			cantor
+##				cantor-backend-julia
+##				cantor-backend-kalgebra
+##				cantor-backend-lua
+##				cantor-backend-maxima
+##				cantor-backend-octave
+##				cantor-backend-python3
+##				cantor-backend-qalculate
+##				cantor-backend-r
+##						r-base
+##				cantor-backend-sage
+##				cantor-backend-scilab
+#			cherrytree
+#			vym
+			freeplane
+			kmplot
+			klavaro
+#			tipp10
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+	.fp		Joplin			net.cozic.joplin_desktop
+#	.fp		Zotero			org.zotero.Zotero
+#	.fp		Anki			net.ankiweb.Anki
+#	.fp		OpenBoard		ch.openboard.OpenBoard
+#	.fp		Cantor			org.kde.cantor
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	DEVELOPMENT (GENERAL)
+
+##	.ex		codium
+##	.ex			codium-insiders
+			git
+				git-doc
+			gh
+			subversion
+#			zeal
+			manpages-dev
+				manpages-es-dev
+				perl-doc
+	.np		prettier
+	.np			prettier-plugin-latex
+
+			docker-ce
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	BASH / FISH
+
+			bash
+				bash-builtins
+				bash-completion
+				bash-doc
+
+~~	LSP/Lint/Formatter
+
+	.np		bash-language-server
+##	.np		fish-lsp
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	C++
+
+~~	IDE
+
+##			qtcreator
+##				qtcreator-doc
+#			codelite
+#				codelite-plugins
+#			kdevelop
+#				kdevelop-l10n
+#				plasma-kdevelop
+
+~~	Compiler/Build
+
+			g++
+				gcc
+				gcc-doc
+			clang
+			cmake
+			meson
+
+~~	Debugger
+
+			gdb
+				gdb-doc
+			lldb
+			valgrind
+
+~~	LSP/Lint/Formatter
+
+			clangd
+#				clazy
+				clang-format
+				clang-tidy
+#			cppcheck
+#				cppcheck-gui
+#			cpplint
+#			uncrustify
+
+~~	Others
+
+			freeglut3-dev
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	DOCKER
+
+~~	LSP/Lint/Formatter
+
+	.np		dockerfile-language-server-nodejs
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	HTML/CSS
+
+~~	LSP/Lint/Formatter
+
+	.np		vscode-html-languageservice
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	JAVA
+
+~~	Compiler/Build
+
+			default-jdk
+				default-jdk-doc
+			default-jre
+			maven
+			gradle
+			ant
+
+~~	LSP/Lint/Formatter
+
+##			checkstyle
+##				checkstyle-doc
+##			findbugs
+##				libfindbugs-annotations-java
+##			uncrustify
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	JAVASCRIPT
+
+~~	Compiler
+
+	.np		typescript
+
+~~	Libraries
+
+			nodejs
+			npm
+
+~~	LSP/Lint/Formatter
+
+	.np		typescript-language-server
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	PYTHON
+
+~~	IDE
+
+##			spyder
+##				python3-spyder-unittest
+
+~~	LSP/Lint/Formatter
+
+			black
+			flake8
+			pylint
+				pylint-doc
+			python3-pylsp
+				python3-pylsp-black
+				python3-pylsp-isort
+				python3-pylsp-jsonrpc
+				python3-pylsp-mypy
+				python3-pylsp-rope
+
+~~	Modules
+
+			python3-build
+				twine
+	.bp		python3-django
+			python3-skimage
+				python-skimage-doc
+			python3-selenium
+				python-selenium-doc
+			python3-kaitaistruct
+			python3-sklearn
+				python-sklearn-doc
+			python3-unidecode
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	Rust
+
+##			rust-all
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	SQL
+
+##			mysql-client
+##			mysql-server
+##				mysql-connector-j
+
+			mariadb-client
+			mariadb-server
+				libmariadb-java
+
+##	.ex		postgresql
+##				postgresql-doc
+##			libxerial-sqlite-jdbc-java
+
+##			mongodb-org
+##				mongodb-atlas
+##				mongodb-mongosh
+
+#			phpmyadmin
+##				php-mbstring
+##				php-zip
+##				php-gd
+##				php-json
+##				php-curl
+##			dbeaver-ce
+##			pgadmin4
+
+			sqlfluff
+				sqlfluff-doc
+	.np		sql-language-server
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+~~	YAML
+
+	.np		yaml-language-server
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~	OTHERS
+
+#			josm
+#				josm-l10n
+

@@ -18,6 +18,8 @@ Scripts, such as `install-apt.fish`, facilitate the installation of packages fro
   - `.pi` : Installs a Python package using `pipx install`.
   - `.np` : Installs an NPM package globally using `npm install -g`.
 
+The text file path must be specified in each script beforehand. An example of it can be found in `__example__.txt`.
+
 ### From GitHub
 
 These scripts, located in the `gh` directory, are used to install and update `.deb` packages hosted on GitHub. The `gh/packages` directory contains scripts that call `gh/install-gh.fish` with the following arguments:
